@@ -1,23 +1,3 @@
-#!/opt/homebrew/bin/python3.8
-# -*- coding: utf-8 -*-
-
-"""
-Script Name: masscan_nmap.py
-Description: This script automates the process of conducting a quick port scan with masscan,
-             followed by a detailed service scan with nmap on open ports. It is designed to
-             run masscan at a high speed to quickly identify open ports and then use nmap
-             to detect services running on these ports. Results are saved to a text file.
-Author: h1thub
-Date: 2024-04-20
-Version: 1.0
-License: MIT License
-
-Usage: sudo python3.8 masnmap.py
-Requirements: This script requires masscan and nmap to be installed and properly configured
-              on the system. Python3 libraries required: nmap, os, json, multiprocessing.
-"""
-
-
 import nmap
 import json
 import os
