@@ -15,6 +15,9 @@ Ensure that both Masscan and Nmap are in the system's PATH or specify the path i
 To use this script, you need to have administrative privileges to perform scans using Masscan and Nmap. Run the script with sudo to ensure it has the necessary permissions:
 
 ```bash
+pip3.8 install python-nmap
+brew install nmap
+brew install masscan
 sudo python3.8 masscan_nmap.py
 ```
 
